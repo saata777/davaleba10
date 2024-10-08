@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 10rem;
+    width: 90rem;
+    height: 58rem;
+    background-color: rgba(185, 185, 185, 0.641);
+}
+.item {
+    width: 21.875rem;
+    height: 15.625rem;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background: #FFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);  
+     
+}
+
+.Supervisor {
+    border-top: 0.25rem solid #44D3D2;
+}
+.TeamBuilder {
+    border-top: 0.25rem solid #EA5454;
+}
+.Karma {
+    border-top: 0.25rem solid #FCAE4A;
+}
+.Calculator {
+    border-top: 0.25rem solid #549EF2;
+}
+ .qveda {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+ }
+ .satauri {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ }
+ .ptegi {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4375rem; /* 176.923% */
+    letter-spacing: 0.00563rem;
+ }
+ .zeda {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ .pirvelisatauri {
+    color: #4D4F62;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    letter-spacing: 0.01563rem;
+ }
+ .meoresatauri {
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.01563rem;
+ }
+ .zedasptegi {
+    color: #4D4F62;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5625rem; /* 166.667% */
+    letter-spacing: 0.0065rem;
+ }
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+ }
+ .shua {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+ }
+ .foto {
+    display: flex;
+    align-self:end;
+    gap: 10rem 10rem;
+ }
+ 
